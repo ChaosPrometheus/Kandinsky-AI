@@ -53,30 +53,30 @@ class KandinskyAPI:
     def get_styles(self):
         styles = [
             {
-                "имя": "КАНДИНСКИЙ",
+                "name": "KANDINSKY",
                 "title": "Кандинский",
-                "titleEn": "Кандинский",
-                "изображение": "https://cdn.fusionbrain.ai/static/download/img-style-kandinsky.png"
-            },
-            {
-                "имя": "UHD",
+                "titleEn": "Kandinsky",
+                "image": "https://cdn.fusionbrain.ai/static/download/img-style-kandinsky.png"
+              },
+              {
+                "name": "UHD",
                 "title": "Детальное фото",
-                "titleEn": "Детальное фото",
-                "изображение": "https://cdn.fusionbrain.ai/static/download/img-style-detail-photo.png"
-            },
-            {
-                "имя": "АНИМЭ",
+                "titleEn": "Detailed photo",
+                "image": "https://cdn.fusionbrain.ai/static/download/img-style-detail-photo.png"
+              },
+              {
+                "name": "ANIME",
                 "title": "Аниме",
-                "titleEn": "Аниме",
-                "изображение": "https://cdn.fusionbrain.ai/static/download/img-style-anime.png"
-            },
-            {
-                "имя": "ПО УМОЛЧАНИЮ",
+                "titleEn": "Anime",
+                "image": "https://cdn.fusionbrain.ai/static/download/img-style-anime.png"
+              },
+              {
+                "name": "DEFAULT",
                 "title": "Свой стиль",
-                "titleEn": "Нет стиль",
-                "изображение": "https://cdn.fusionbrain.ai/static/download/img-style-personal.png"
-            }
-        ]
+                "titleEn": "No style",
+                "image": "https://cdn.fusionbrain.ai/static/download/img-style-personal.png"
+              }
+                    ]
         return styles
 
     def decode_image(self, image_data, output_file):
