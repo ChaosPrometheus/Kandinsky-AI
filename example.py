@@ -6,7 +6,7 @@ def main():
     styles = api.get_styles()
     
     # Пример генерации изображения с использованием стиля "АНИМЭ"
-    uuid = api.generate("Пушистый кот в очках", model_id, width=512, height=512, style="АНИМЭ")
+    uuid = api.generate("Пушистый кот в очках", model_id, width=512, height=512, style="ANIME")
     images = api.check_generation(uuid)
     
     if images:
